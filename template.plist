@@ -5,7 +5,7 @@
   <key>Label</key>
   <string>com.jca.code_review_scoreboard</string>
   <key>Program</key>
-  <string>{script_dir}/pull.py</string>
+  <string>{script_dir}/main.py</string>
   <key>RunAtLoad</key>
   <false/>
   <key>StandardOutPath</key>
