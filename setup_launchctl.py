@@ -1,9 +1,11 @@
 #!/usr/bin/python
 import os, subprocess, shutil, glob
 
+proj_name = 'your_project_name'
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 log_dir = os.path.expanduser('~')
-plist_filename ='com.foo.projectname.plist'
+plist_filename = 'com.my_launchctl_stuff.{}.plist'.format(proj_name)
 plist_path = os.path.expanduser(os.path.join('~/Library/LaunchAgents/', plist_filename))
 
 with open('template.plist') as f:
