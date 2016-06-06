@@ -3,7 +3,7 @@ import os, subprocess, shutil, glob
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 log_dir = os.path.expanduser('~')
-plist_filename = glob.glob('com.jca.*.plist')[0]
+plist_filename ='com.foo.projectname.plist'
 plist_path = os.path.expanduser(os.path.join('~/Library/LaunchAgents/', plist_filename))
 
 with open('template.plist') as f:
