@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>com.jca.code_review_scoreboard</string>
+  <string>com.jca.{proj_name}</string>
   <key>Program</key>
   <string>{script_dir}/main.py</string>
   <key>RunAtLoad</key>
   <false/>
   <key>StandardOutPath</key>
-  <string>{log_dir}/code_review_scoreboard.log</string>
+  <string>{log_dir}/{proj_name}.log</string>
   <key>StandardErrorPath</key>
-  <string>{log_dir}/code_review_scoreboard.err</string>
+  <string>{log_dir}/{proj_name}.err</string>
   <key>WorkingDirectory</key>
   <string>{script_dir}</string>
   <key>StartCalendarInterval</key>
