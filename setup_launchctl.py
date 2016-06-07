@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import os, subprocess, shutil, glob
 
+
 proj_name = 'your_project_name'
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
